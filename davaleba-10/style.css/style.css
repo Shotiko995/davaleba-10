@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    font-size: 10px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    margin-right: 78px;
+    color: #636060;
+}
+
+.fle {
+    width: 50px;
+    height: 50px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-right: 600px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.xedi {
+    width: 1256px;
+    height: 550px;
+    margin-left: 1px;
+}
+
+#sps {
+    position: absolute;
+    font-size: 100px;
+    color: #ffffff;
+    display: flex;
+    margin-left: 407px;
+    margin-top: 223px;
+}
+
+.spss {
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 360px;
+    margin-left: 553px;
+}
+
+.about {
+    gap: 10px;
+    height: 10%;
+    width: 10%;
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-right: 1px;
+}
+
+.warwera {
+    font-size: 10px;
+    color: #636060;
+    display: block;
+
+}
+
+.rtuli {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 1px;
+    gap: 1px
+}
+
+img {
+
+    gap: 3px;
+    width: 210px;
+    height: 200px;
+    margin-left: 70px;
+    margin-right: 1px;
+    margin-top: 10px;
+}
+
+.didi {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    color: #343232;
+    margin-left: 100px;
+
+}
+
+.patara {
+    display: flex;
+    text-align: center;
+    margin-left: 70px;
+    width: 200px;
+    height: 100px;
+
+}
+
+.button {
+    color: black;
+    border: 5px solid blue;
+    border-radius: 7px;
+    padding: 4px;
+ font-size: 30px;
+}
+.i{
+    color: blue;
+}
+
+@media only screen and (max-width: 400px) {
+    nav, .header {
+        display: none !important;
+    }
+
+}
+@media only screen and (min-width: 400px ) {
+ span, .header {
+        display: none ;
+    }
+}
+.i{
+    display: inline-block !important;
+}
